@@ -1,3 +1,5 @@
+//max value//
+
 #include <stdio.h>
 int max(int array[], int n)
 {
@@ -21,3 +23,4 @@ int main()
     return 0;
     
 }
+
