@@ -51,3 +51,29 @@ int main()
     return 0;
     
 }
+
+
+//Q.3. average value//
+
+#include <stdio.h>
+float avg(int array[], int n)
+{
+float sum=0;
+float average;
+    for(int i=0; i<n; i++)
+    {
+      sum = sum + array[i];
+    }
+      average=sum/n;
+  return average;
+}
+
+int main()
+{
+    int data[]={9,5,6,10,2,-3,4};
+    int n=7;
+    float a=avg(data,n);
+    printf("Average:%f \n",a);
+    return 0;
+    
+}
